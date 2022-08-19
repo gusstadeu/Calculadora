@@ -24,7 +24,7 @@ html {
 
         header {
             height: 30vh;
-            padding-top: 40px;
+            padding-top: 20px;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -65,7 +65,7 @@ html {
             flex-direction: column;
             height: 70vh;
             align-items: space-between;
-            padding-bottom: 40px ;
+            padding-bottom: 80px ;
 
             .tecladoRow {
                 display : flex;
@@ -86,8 +86,6 @@ html {
                     color: white;
                     background-color: transparent;
                     transition-duration: 0.3s;
-
-
 
 
                     &:hover{
@@ -118,6 +116,13 @@ html {
             
             .operador{
                 color: #FF3A3A !important;
+
+                &:hover{
+                    background-color: #FF3A3A !important;
+                    color: white !important;
+                    border: none ;
+
+                }
             }
         }
     

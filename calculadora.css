@@ -23,7 +23,7 @@ html {
 
 .container header {
   height: 30vh;
-  padding-top: 40px;
+  padding-top: 20px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,7 +80,7 @@ html {
   -webkit-box-align: space-between;
       -ms-flex-align: space-between;
           align-items: space-between;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .container .teclado .tecladoRow {
@@ -142,6 +142,12 @@ html {
 
 .container .teclado .operador {
   color: #FF3A3A !important;
+}
+
+.container .teclado .operador:hover {
+  background-color: #FF3A3A !important;
+  color: white !important;
+  border: none;
 }
 
 @media (max-width: 768px) {
