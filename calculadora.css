@@ -8,7 +8,6 @@
 }
 
 html {
-  background-color: #E21616;
   overflow-y: hidden;
 }
 
@@ -19,6 +18,8 @@ html {
   max-width: 900px;
   height: 95vh;
   margin: 10px auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.85) 0px 10px 25px;
+          box-shadow: rgba(0, 0, 0, 0.85) 0px 10px 25px;
 }
 
 .container header {

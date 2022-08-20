@@ -9,7 +9,6 @@
 }
 
 html {
-    background-color: #E21616;
     overflow-y: hidden;
 }
 
@@ -21,6 +20,8 @@ html {
 
     height: 95vh;
     margin: 10px auto;
+
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 10px 25px;
 
         header {
             height: 30vh;
@@ -86,6 +87,9 @@ html {
                     color: white;
                     background-color: transparent;
                     transition-duration: 0.3s;
+                    
+                    
+                    
 
 
                     &:hover{
